@@ -1,0 +1,77 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+#nav {
+  margin: 0;
+  text-align: center;
+  background:rgba(59, 87, 72, 0.9);
+  padding: 30px 20px 30px 20px;
+}
+
+#nav li {
+    color: rgb(2, 19, 1);
+    font-size: 20px;
+    margin: 30px;
+    list-style-type: none;
+    text-align: left;
+    display: inline;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+}
+
+h1::-webkit-scrollbar-track-piece {
+    color: rgb(6, 4, 117);
+}
+
+a::first-letter {
+    color: yellow;
+}
+
+h1 {
+    color:rgb(250, 246, 20);
+    margin: 20px;
+}
+  
+h3 {
+    color:brown;
+    margin: 20px;
+}
+
+p::first-line {
+    color: red;
+}
+
+.row {
+    display: flex;
+    margin: 20px;
+}
+
+.row > .col-md-6 {
+    margin: 20px;
+}
+
+.html {
+    background-color: green;
+    width: 80%;
+  }
+  
+  .css {
+    background-color: green;
+    width: 75%;
+  }
+  
+  .java {
+    background-color: green;
+    width: 90%
+  }
+  
+  .dsa {
+    background-color: green;
+    width: 85%;
+  }
+  
